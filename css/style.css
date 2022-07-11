@@ -48,6 +48,12 @@
     height: 845px;
 }
 
+.section_1 .col {
+    padding: 40px;
+    background-color: violet;
+    border: 1px solid rosybrown;
+}
+
 
 /* section_2 */
 .section_2 {
