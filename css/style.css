@@ -25,7 +25,20 @@
 /* hero */
 .hero {
     background-color: var(--bg_color_hero);
-    height: 580px;
+    padding: 40px;
+}
+
+.hero .container_large {
+    text-align: center;
+}
+
+.hero .card {
+    display: inline-block;
+}
+
+.hero .card * {
+    padding: 80px 160px;
+    background-color: blueviolet;
 }
 
 
