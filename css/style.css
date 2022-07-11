@@ -55,7 +55,7 @@
 }
 
 .section_1 .col {
-    padding: 40px;
+    padding: 80px;
     background-color: violet;
     border: 1px solid rosybrown;
 }
@@ -73,7 +73,7 @@
     border: 1px solid rosybrown;
 }
 
-.btn {
+.btn_blue {
     display: block;
     text-align: center;
     width: 100px;
@@ -85,6 +85,10 @@
 .section_3 {
     background-color: white;
     height: 685px;
+}
+
+.big_size {
+    height: 60px;
 }
 
 
