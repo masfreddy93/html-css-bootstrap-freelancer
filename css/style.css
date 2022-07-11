@@ -55,7 +55,7 @@
 }
 
 .section_1 .col {
-    padding: 80px;
+    padding: 40px;
     background-color: violet;
     border: 1px solid rosybrown;
 }
@@ -99,11 +99,17 @@
     height: 230px;
 }
 
+.footer_top .col {
+    background-color: yellow;
+    height: 40px;
+}
+
 
 /* footer_bottom */
 .footer_bottom {
     background-color: var(--bg_color_footer_bottom);
     height: 110px;
+    padding: 40px;
 }
 
 
