@@ -11,13 +11,14 @@
 
 /* header */
 .header {
-   height: 80px;
+   /* height: 80px; */
    background-color: var(--bg_color_header);
 }
 
 
 .header .container_large .container > .row {
    justify-content: space-between;
+   padding: 2rem 0;
 }
 
 
