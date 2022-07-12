@@ -56,27 +56,21 @@
 /* footer_top */
 .footer_top {
     background-color: var(--bg_color_footer_top);
-    height: 230px;
 }
 
-.footer_top .col {
-    background-color: yellow;
-    height: 40px;
+.footer_top .fa {
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
 }
-
 
 /* footer_bottom */
 .footer_bottom {
     background-color: var(--bg_color_footer_bottom);
-    height: 110px;
-    padding: 40px;
 }
 
-
-
-
-
-/* * {
-    border: 2px solid red;
-    padding: 20px;
-} */
