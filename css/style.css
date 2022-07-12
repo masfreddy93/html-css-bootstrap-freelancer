@@ -19,7 +19,7 @@
     display: block;
     text-align: center;
     width: auto;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 /* header */
@@ -33,7 +33,6 @@
     background-color: var(--bg_color_hero);
     padding: 40px;
 }
-
 
 
 /* section_1 */
@@ -50,11 +49,6 @@
 /*  section_3 */
 .section_3 {
     background-color: white;
-    height: 685px;
-}
-
-.big_size {
-    height: 60px;
 }
 
 
