@@ -43,6 +43,11 @@
                     <img src="./img/avatar.svg" class="card-img-top img-fluid" alt="...">
                     <div class="card-body text-center">
                       <h2 class="card-title text-uppercase text-light fw-bold text-center">Start bootstrap</h2>
+                      <div class="star text-center position-relative">
+                        <i class="fa-solid fa-star text-white"></i>
+                        <div class="border_1 position-absolute bg-white"></div>
+                        <div class="border_2 position-absolute bg-white"></div>
+                      </div>
                       <a href="#" class="btn btn-primary">Stella</a>
                       <p class="card-text text-uppercase text-white fw-bold">Graphic Artist - Web Designer - Illustrator </p>
                     </div>
@@ -113,49 +118,45 @@
         </section>
     
         <section class="section_3 py-5">
-            <div class="container_small">
-                <h2 class="card-title text-uppercase fw-bold text-center">Contact Me</h2>
-                <a href="#" class="btn btn-primary">Stella</a>
-                <br>
-                <br>
-                <form class="details px-2">
+            <div class="container_small px-2">
+                <h2 class="card-title text-uppercase fw-bold text-center mb-1">Contact Me</h2>
+                <a href="#" class="btn btn-primary mb-1">Stella</a>
+                <form class="details mb-1">
                     <div class="mb-3">
                         <label for="exampleInputPassword1" class="form-label">Name</label>
                         <input type="name" class="form-control" id="exampleName">
-                      </div>
-                      <div class="mb-3">
+                    </div>
+                    <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label">Email address</label>
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                      </div>
-                      <div class="mb-3">
+                    </div>
+                    <div class="mb-3">
                         <label class="phone">Telephone</label>
                         <input type="tel" class="form-control" >
-                      </div>
-                      <div class="mb-3">
+                    </div>
+                    <div class="mb-3">
                         <label class="phone">Messagge</label>
-                        <textarea rows="4" cols="50" name="comment" form="usrform" class="form-control">
+                        <textarea rows="4" cols="40" name="comment" form="usrform" class="form-control">
                         </textarea>
-                      </div>
-                    </form>
-                <br>
+                    </div>
+                </form>
                 <button type="button" class="btn btn_green btn-success">Send</button>
             </div>   
         </section>
     </main>
 
     <footer class="footer">
-        <div class="footer_top">
+        <div class="footer_top py-4">
             <div class="container_big">
                 <div class="container">
-                    <div class="row g-3 row-cols-1 row-cols-md-3">
+                    <div class="row gx-3 row-cols-1 row-cols-md-3">
                         <div class="col">
                             <h3 class="text-uppercase text-center text-light">Location</h3>
                             <address class="text-light text-center">2215 John Daniel Drive Clarke, MO 54623</address>
                         </div>
                         <div class="col">
                             <h3 class="text-uppercase text-center text-light">Around The Web</h3>
-                            <div class="icons text-light text-center row justify-content-evenly">
+                            <div class="icons text-light text-center d-flex">
                                 <i class="fa fa-facebook" aria-hidden="true"></i>
                                 <i class="fa fa-google-plus " aria-hidden="true"></i>
                                 <i class="fa fa-twitter " aria-hidden="true"></i>
@@ -173,7 +174,7 @@
                 </div>
             </div>
         </div>
-        <div class="footer_bottom py-2">
+        <div class="footer_bottom py-3">
             <p class="text-center text-white">Copyright <i class="fa fa-copyright"></i> your website 2019</p>
         </div>
     </footer>
