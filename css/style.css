@@ -15,6 +15,13 @@
     margin: 0 auto;
 }
 
+.btn {
+    display: block;
+    text-align: center;
+    width: auto;
+    margin: 0 auto;
+}
+
 /* header */
 .header {
    background-color: var(--bg_color_header);
@@ -37,20 +44,6 @@
 /* section_2 */
 .section_2 {
     background-color: var(--bg_color_hero);
-    height: 490px;
-}
-
-.section_2 .col {
-    padding: 40px;
-    background-color: violet;
-    border: 1px solid rosybrown;
-}
-
-.btn {
-    display: block;
-    text-align: center;
-    width: 100px;
-    margin: 0 auto;
 }
 
 
